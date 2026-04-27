@@ -1,0 +1,11 @@
+pyspark
+duckdb
+pandas
+pyarrow
+pandera
+pydantic
+python-dotenv
+pytest
+typer
+rich
+loguru
