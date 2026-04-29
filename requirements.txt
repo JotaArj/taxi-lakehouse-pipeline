@@ -1,9 +1,11 @@
 pyspark
 duckdb
 pandas
+pandas-stubs
 pyarrow
 pandera
 pydantic
+mypy
 python-dotenv
 pytest
 typer
