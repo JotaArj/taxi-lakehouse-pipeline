@@ -7,3 +7,14 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 logs/*.log
+
+# Ignore generated/local contents while keeping the directories available.
+data/*
+docker/*
+infra/*
+logs/*
+
+!data/.gitkeep
+!docker/.gitkeep
+!infra/.gitkeep
+!logs/.gitkeep

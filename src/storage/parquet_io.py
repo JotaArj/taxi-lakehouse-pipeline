@@ -11,7 +11,7 @@ class ParquetIO:
             return spark.read.parquet(str(path))
         
         except AnalysisException as e:
-            print(f"[ERROR] Path does not exist or is invalid: {path}")
+            print(f"[ERROR] Path does not exist or is invalid: {path} ({e})")
             raise
 
         except Exception as e:
